@@ -49,7 +49,7 @@ def stream_markup_timer(_, chat_id, played, dur):
     elif 70 <= umm < 80:
         bar = "ᴇɴᴊᴏʏ ʟᴀɢғʀᴇᴇ ᴍᴜsɪᴄ ᴡɪᴛʜ ʜᴜɴɢᴀᴍᴀ ᴍᴜsɪᴄ ❤"
     elif 80 <= umm < 95:
-        bar = "🌸🌸🌸🌸"
+        bar = "ʜᴜɴɢᴀᴍᴀ ᴍᴜsɪᴄ ❤"
     else:
         bar = "ᴛʜᴀɴᴋ ʏᴏᴜ ❤"
     buttons = [
@@ -59,11 +59,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
-            InlineKeyboardButton(text="💥 ᴊᴏɪɴ Ɦᴇʀᴇ & sᴜᴘᴘᴏʀᴛ 💞",url=f"https://t.me/infinitelovefeelboyxd"),
-            InlineKeyboardButton(text="🥀 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  💞",url=f"https://t.me/Stylish_Bio_Dp_0"),
-            InlineKeyboardButton(text="❤ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❤",url=f"https://t.me/niksonfire"),
-            InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀",url=f"https://t.me/feel_boy_1"),
-
+            
         ],
         [
             InlineKeyboardButton(
